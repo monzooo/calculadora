@@ -1,0 +1,35 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3564ff;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0 0 20px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #329e00;
+}
+
+#result {
+    font-size: 24px;
+    margin: 20px 0;
+}
